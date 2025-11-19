@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Hypertension is diagnosed at what BP cut-off?",
+    "correct": "≥130/80 mmHg on repeated standardized readings",
+    "wrong": "≥130/90 mmHg on a single clinic reading",
+    "reasoning": "AHA/ACC 2025 uses ≥130/80 with standardized multiple measurements."
+  },
+  {
+    "question": "What is the preferred method to confirm hypertension?",
+    "correct": "HBPM/ABPM confirmation preferred",
+    "wrong": "Office BP alone is sufficient",
+    "reasoning": "Out-of-office readings avoid white-coat and masked phenomena."
+  }
+]
