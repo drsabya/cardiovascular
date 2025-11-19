@@ -3,14 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Medical Quiz App</title>
+    <title>Hypertension and Acute Coronary Syndrome</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="app-container">
       <header class="app-header">
-        <h1>Medical Quiz</h1>
+        <h1>Hypertension and Acute Coronary Syndrome</h1>
       </header>
+
+      <!-- Progress Bar -->
+      <div id="progress-wrapper">
+        <div id="progress-bar"></div>
+      </div>
 
       <div id="quiz-box">
         <div id="question-number"></div>
@@ -18,9 +23,12 @@
 
         <div id="options-container"></div>
 
-        <div id="reasoning-box" class="hidden"></div>
+        <div id="feedback-box" class="hidden"></div>
 
-        <button id="next-btn" class="hidden">Next</button>
+        <div class="nav-buttons">
+          <button id="back-btn" class="nav-btn hidden">Back</button>
+          <button id="next-btn" class="nav-btn hidden">Next</button>
+        </div>
       </div>
     </div>
 

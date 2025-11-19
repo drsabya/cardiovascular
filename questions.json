@@ -1,14 +1,358 @@
 [
   {
-    "question": "Hypertension is diagnosed at what BP cut-off?",
-    "correct": "≥130/80 mmHg on repeated standardized readings",
+    "question": "Hypertension is diagnosed at which BP cutoff?",
+    "correct": "130/80 mmHg on repeated standardized readings",
     "wrong": "≥130/90 mmHg on a single clinic reading",
-    "reasoning": "AHA/ACC 2025 uses ≥130/80 with standardized multiple measurements."
+    "reasoning": "AHA/ACC 2025 keeps the diagnostic threshold at ≥130/80 mmHg based on outcome data showing increased CV risk above this level."
   },
   {
-    "question": "What is the preferred method to confirm hypertension?",
+    "question": "What is the BP goal for most adults?",
+    "correct": "<130/80 mmHg in treated adults",
+    "wrong": "<135/85 mmHg for all adults",
+    "reasoning": "Trials show lowering BP to <130/80 mmHg reduces stroke, MI, and heart failure in most adults."
+  },
+  {
+    "question": "Preferred method to confirm hypertension?",
     "correct": "HBPM/ABPM confirmation preferred",
     "wrong": "Office BP alone is sufficient",
-    "reasoning": "Out-of-office readings avoid white-coat and masked phenomena."
+    "reasoning": "Out-of-office readings (HBPM/ABPM) avoid white-coat effect and better reflect usual BP."
+  },
+  {
+    "question": "What is white-coat hypertension?",
+    "correct": "High office BP, normal ABPM/HBPM",
+    "wrong": "High office BP, slightly high ABPM",
+    "reasoning": "In white-coat hypertension, stress in the clinic raises BP, but ambulatory/home readings remain normal."
+  },
+  {
+    "question": "What is masked hypertension?",
+    "correct": "Normal office BP, high ABPM/HBPM",
+    "wrong": "Normal office BP, borderline ABPM",
+    "reasoning": "In masked hypertension, clinic BP looks normal while true everyday BP is elevated outside."
+  },
+  {
+    "question": "What is the first step in HTN evaluation?",
+    "correct": "Standardized office BP before decisions",
+    "wrong": "Random clinic BP is adequate",
+    "reasoning": "Treatment decisions depend on accurate standardized office measurement before anything else."
+  },
+  {
+    "question": "Which are first-line drug classes?",
+    "correct": "Thiazide, ACEi, ARB, CCB as first-line",
+    "wrong": "Beta-blocker as universal first-line",
+    "reasoning": "These four classes have the strongest evidence for CV risk reduction and are recommended as first-line."
+  },
+  {
+    "question": "When start meds in Stage 1 HTN?",
+    "correct": "Start meds if ASCVD ≥10% or TOD present",
+    "wrong": "Start meds only if BP >140/90",
+    "reasoning": "In low-risk stage 1 HTN lifestyle alone is acceptable, but high ASCVD risk or TOD justifies adding drugs."
+  },
+  {
+    "question": "When is dual therapy recommended?",
+    "correct": "Dual therapy for Stage 2 HTN",
+    "wrong": "Dual therapy only after monotherapy failure",
+    "reasoning": "Stage 2 hypertension or BP far above goal usually needs two drugs to reach target quickly and safely."
+  },
+  {
+    "question": "Why avoid ACEi + ARB combination?",
+    "correct": "ACEi + ARB increases harm without benefit",
+    "wrong": "ACEi + ARB lowers BP more effectively",
+    "reasoning": "Combining ACEi and ARB increases renal adverse effects without proven added benefit in outcomes."
+  },
+  {
+    "question": "DOC in diabetes with albuminuria?",
+    "correct": "ACEi or ARB protects kidneys in diabetes",
+    "wrong": "CCB alone is preferred in diabetes",
+    "reasoning": "ACEi/ARBs slow progression of diabetic kidney disease and reduce albuminuria and CV events."
+  },
+  {
+    "question": "DOC in CKD with albuminuria?",
+    "correct": "ACEi/ARB for CKD with albuminuria",
+    "wrong": "Thiazide preferred for CKD with proteinuria",
+    "reasoning": "In CKD with albuminuria, RAAS blockade is key to kidney protection and lowering CV risk."
+  },
+  {
+    "question": "Preferred therapy post-MI/HFrEF?",
+    "correct": "β-blocker + ACEi/ARB post-MI",
+    "wrong": "CCB preferred post-MI",
+    "reasoning": "β-blockers and ACEi/ARBs improve survival and remodeling after MI and in HFrEF."
+  },
+  {
+    "question": "Which drugs are unsafe in pregnancy?",
+    "correct": "ACEi/ARB/ARNi contraindicated in pregnancy",
+    "wrong": "Nifedipine ER contraindicated in pregnancy",
+    "reasoning": "These RAAS drugs cause fetal toxicity and are strictly avoided in pregnancy."
+  },
+  {
+    "question": "First-line drugs in pregnancy?",
+    "correct": "Labetalol or Nifedipine ER",
+    "wrong": "ACE inhibitors",
+    "reasoning": "Labetalol, nifedipine ER, and methyldopa have fetal safety and BP-lowering data in pregnancy."
+  },
+  {
+    "question": "When suspect secondary HTN?",
+    "correct": "Severe, abrupt HTN at young age",
+    "wrong": "Mild elevated BP in older adults",
+    "reasoning": "Very young onset, abrupt severe HTN, or disproportionate TOD suggests a secondary cause."
+  },
+  {
+    "question": "Definition of resistant hypertension?",
+    "correct": "≥130/80 on 3 drugs incl. a diuretic",
+    "wrong": "≥140/90 on one medication",
+    "reasoning": "True resistant HTN is defined by poor control despite a full, appropriate three-drug regimen."
+  },
+  {
+    "question": "Best 4th-line drug in resistant HTN?",
+    "correct": "Spironolactone as fourth-line",
+    "wrong": "Amlodipine as fourth-line",
+    "reasoning": "Spironolactone effectively lowers BP in resistant HTN by blocking aldosterone’s sodium-retaining effects."
+  },
+  {
+    "question": "Role of renal denervation?",
+    "correct": "RDN for selected true resistant HTN",
+    "wrong": "RDN as first-line for most HTN",
+    "reasoning": "RDN is reserved for carefully selected resistant HTN patients after maximized drug therapy."
+  },
+  {
+    "question": "Recommended sodium intake?",
+    "correct": "<1500 mg/day sodium target",
+    "wrong": "<2500 mg/day sodium target",
+    "reasoning": "Lower sodium intake substantially reduces BP and CV risk, especially in hypertensives."
+  }
+  ,
+  {
+    "question": "Lifestyle with greatest BP reduction?",
+    "correct": "Combined lifestyle gives largest reduction",
+    "wrong": "Aerobic exercise alone is enough",
+    "reasoning": "Combining diet, weight loss, and regular exercise produces additive BP reductions."
+  },
+  {
+    "question": "Why prefer single-pill combination?",
+    "correct": "Single-pill improves adherence",
+    "wrong": "Single-pill reduces adherence",
+    "reasoning": "Single-pill combinations simplify regimens, improving adherence and speed of BP control."
+  },
+  {
+    "question": "Drugs that worsen BP?",
+    "correct": "NSAIDs, OCPs, steroids raise BP",
+    "wrong": "ACE inhibitors raise BP",
+    "reasoning": "These drugs promote sodium retention or sympathetic activation and can blunt BP control."
+  },
+  {
+    "question": "BP target in older adults?",
+    "correct": "<130/80 with individualization",
+    "wrong": "<120/70 for all older adults",
+    "reasoning": "The same target applies, but treatment intensity must be tailored to frailty and orthostatic symptoms."
+  },
+  {
+    "question": "Define hypertensive emergency.",
+    "correct": "Severe BP + organ damage",
+    "wrong": "Severe BP without organ damage",
+    "reasoning": "Emergency is distinguished by acute target-organ damage, which mandates rapid IV BP control."
+  },
+  {
+    "question": "Define hypertensive urgency.",
+    "correct": "Severe BP without organ damage",
+    "wrong": "Severe BP with acute organ injury",
+    "reasoning": "Urgency has severe BP elevation but no organ damage, so gradual oral reduction is safer."
+  },
+  {
+    "question": "What BP suggests emergency/urgency?",
+    "correct": "≥180/120 mmHg but organ injury defines emergency",
+    "wrong": "≥150/90 mmHg defines emergency",
+    "reasoning": "Very high numbers like ≥180/120 mmHg are concerning, but organ damage defines an emergency."
+  },
+  {
+    "question": "Organs involved in HTN emergency?",
+    "correct": "Brain, heart, kidneys, aorta, retina",
+    "wrong": "Skin, muscle, peripheral nerves",
+    "reasoning": "These organs are highly vulnerable to acute pressure surges and determine prognosis."
+  },
+  {
+    "question": "Example of HTN emergency?",
+    "correct": "Pulmonary edema, stroke, ACS",
+    "wrong": "Mild headache, anxiety",
+    "reasoning": "These conditions represent acute dysfunction of vital organs due to severe hypertension."
+  },
+  {
+    "question": "BP reduction goal in emergency?",
+    "correct": "Reduce BP by 20–25% in first hour",
+    "wrong": "Normalize BP immediately",
+    "reasoning": "Too-rapid BP fall can cause ischemia, so guidelines recommend modest initial reduction."
+  },
+  {
+    "question": "Exception with special BP target?",
+    "correct": "Aortic dissection needs SBP <120",
+    "wrong": "Pulmonary edema needs SBP <120",
+    "reasoning": "Aortic dissection and stroke need specific, more aggressive or tailored BP targets."
+  },
+  {
+    "question": "Preferred IV drugs in emergency?",
+    "correct": "Nicardipine, labetalol IV",
+    "wrong": "Oral amlodipine",
+    "reasoning": "These IV agents allow precise, rapid titration suitable for emergencies, unlike oral amlodipine."
+  },
+  {
+    "question": "Management of urgency?",
+    "correct": "Oral adjustment + follow-up",
+    "wrong": "IV therapy mandatory",
+    "reasoning": "Without organ damage, slow BP reduction with oral meds and follow-up minimizes harm."
+  },
+  {
+    "question": "Why avoid rapid correction?",
+    "correct": "Risk of ischemia from rapid drop",
+    "wrong": "Faster drop always safer",
+    "reasoning": "Abrupt large BP drops outpace autoregulatory adaptation and can worsen organ perfusion."
+  },
+  {
+    "question": "What defines STEMI?",
+    "correct": "ST elevation with acute occlusion",
+    "wrong": "ST depression with occlusion",
+    "reasoning": "STEMI reflects a totally occluded coronary artery producing persistent ST elevation on ECG."
+  },
+  {
+    "question": "What defines NSTEMI?",
+    "correct": "Troponin rise without ST elevation",
+    "wrong": "ST elevation without troponin rise",
+    "reasoning": "NSTEMI has myocardial necrosis (troponin rise) without the classic ST elevation pattern."
+  },
+  {
+    "question": "What is unstable angina?",
+    "correct": "Ischemia without troponin rise",
+    "wrong": "Ischemia with clear troponin elevation",
+    "reasoning": "Unstable angina has ischemia but not enough necrosis to raise troponin levels."
+  },
+  {
+    "question": "Most sensitive ACS marker?",
+    "correct": "High-sensitivity troponin",
+    "wrong": "CK-MB alone",
+    "reasoning": "High-sensitivity troponin detects very small myocardial injury earlier than older markers."
+  },
+  {
+    "question": "When repeat troponin?",
+    "correct": "Troponin at 0 & 1–2h",
+    "wrong": "Troponin only at 12h",
+    "reasoning": "0/1–2h algorithms accelerate rule-in/rule-out decisions and shorten ED stay."
+  }
+  ,
+  {
+    "question": "Which ACS needs immediate reperfusion?",
+    "correct": "STEMI needs immediate reperfusion",
+    "wrong": "NSTEMI needs immediate reperfusion",
+    "reasoning": "STEMI has the greatest benefit from immediate reperfusion because a full coronary occlusion exists."
+  },
+  {
+    "question": "FMC-to-device time in PCI-capable center?",
+    "correct": "FMC-to-device ≤90 min",
+    "wrong": "FMC-to-device ≤180 min",
+    "reasoning": "Outcomes are best when device crossing occurs within 90 minutes of first medical contact."
+  },
+  {
+    "question": "First step for STEMI at non-PCI hospital?",
+    "correct": "Check for shock or severe HF",
+    "wrong": "Give nitrates immediately",
+    "reasoning": "Shock or severe HF dramatically increases risk and mandates rapid transfer for definitive PCI."
+  },
+  {
+    "question": "What if shock present at non-PCI center?",
+    "correct": "Transfer immediately if shock",
+    "wrong": "Give lytics first in shock",
+    "reasoning": "Non-PCI hospitals cannot definitively treat shock in STEMI, so rapid transfer is lifesaving."
+  },
+  {
+    "question": "Key question if no shock?",
+    "correct": "Assess PCI feasibility time",
+    "wrong": "Check if troponin is positive",
+    "reasoning": "Transfer is only beneficial if PCI can still be performed within evidence-based time windows."
+  },
+  {
+    "question": "If FMC-device ≤120 min?",
+    "correct": "Transfer for PCI if ≤120 min",
+    "wrong": "Give fibrinolytics",
+    "reasoning": "When timely PCI is possible, primary PCI is superior to fibrinolysis."
+  },
+  {
+    "question": "If FMC-device >120 min?",
+    "correct": "Give fibrinolytics if >120 min",
+    "wrong": "Transfer for PCI regardless",
+    "reasoning": "If PCI will be significantly delayed, fibrinolysis is recommended to restore flow sooner."
+  },
+  {
+    "question": "Door-to-needle time?",
+    "correct": "Door-to-needle ≤30 min",
+    "wrong": "Door-to-needle ≤90 min",
+    "reasoning": "Door-to-needle ≤30 minutes maximizes fibrinolysis benefit in STEMI."
+  },
+  {
+    "question": "What is delayed PCI?",
+    "correct": "PCI 3–24h after lysis",
+    "wrong": "Immediate PCI after lysis",
+    "reasoning": "After successful lysis, planned PCI within 3–24 hours improves long-term outcomes."
+  },
+  {
+    "question": "What is rescue PCI?",
+    "correct": "PCI after failed lysis",
+    "wrong": "PCI after successful lysis",
+    "reasoning": "Rescue PCI is needed when fibrinolysis fails to restore perfusion adequately."
+  },
+  {
+    "question": "When prefer delayed PCI?",
+    "correct": "Delayed PCI if stable post-lysis",
+    "wrong": "Immediate PCI always",
+    "reasoning": "If lysis succeeded and the patient is stable, there is no need for immediate urgent PCI."
+  },
+  {
+    "question": "Why “DM” noted in pathway?",
+    "correct": "Diabetics need early angiography",
+    "wrong": "Diabetics should avoid early angiography",
+    "reasoning": "Diabetics have higher risk and more silent ischemia, justifying routine early angiography."
+  },
+  {
+    "question": "Preferred P2Y12 in PCI?",
+    "correct": "Ticagrelor/prasugrel preferred",
+    "wrong": "Clopidogrel always preferred",
+    "reasoning": "Ticagrelor/prasugrel provide more potent platelet inhibition and better outcomes than clopidogrel in ACS-PCI."
+  },
+  {
+    "question": "Standard DAPT duration after ACS?",
+    "correct": "DAPT for 12 months",
+    "wrong": "DAPT for 3 months",
+    "reasoning": "One year of DAPT balances ischemic protection with acceptable bleeding risk after ACS."
+  },
+  {
+    "question": "P2Y12 used with fibrinolysis?",
+    "correct": "Clopidogrel with fibrinolysis",
+    "wrong": "Prasugrel with fibrinolysis",
+    "reasoning": "Clopidogrel is the agent studied and approved in combination with fibrinolytics."
+  },
+  {
+    "question": "Anticoagulant used during PCI?",
+    "correct": "UFH during PCI",
+    "wrong": "Warfarin during PCI",
+    "reasoning": "Unfractionated heparin is easy to titrate and reverse and is standard in the cath lab."
+  },
+  {
+    "question": "Essential long-term meds post-ACS?",
+    "correct": "β-blocker + ACEi/ARB + statin long-term",
+    "wrong": "Statin monotherapy",
+    "reasoning": "These drugs reduce reinfarction, remodel the ventricle, and improve long-term survival."
+  },
+  {
+    "question": "When early invasive strategy in NSTEMI?",
+    "correct": "Early invasive strategy for high-risk NSTEMI",
+    "wrong": "Early invasive strategy for all NSTEMI",
+    "reasoning": "High-risk NSTEMI patients benefit from earlier angiography and revascularization."
+  },
+  {
+    "question": "Which ACS should NOT get fibrinolysis?",
+    "correct": "Fibrinolysis NOT for NSTEMI",
+    "wrong": "Fibrinolysis for NSTEMI",
+    "reasoning": "Fibrinolytics have no proven benefit and higher risk in NSTEMI/UA, so are avoided."
+  },
+  {
+    "question": "Symptom-to-needle goal for fibrinolysis?",
+    "correct": "Symptom-to-needle ≤12h",
+    "wrong": "Symptom-to-needle ≤24h",
+    "reasoning": "Early fibrinolysis (within 12h, and door-to-needle within 30 min) preserves myocardium and improves survival."
   }
 ]
