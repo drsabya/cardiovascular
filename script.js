@@ -1,6 +1,5 @@
 let questions = [];
 let index = 0;
-let selected = null;
 let userAnswers = [];
 
 async function loadQuestions() {
@@ -11,19 +10,20 @@ async function loadQuestions() {
 
 function renderQuestion() {
   const q = questions[index];
+
   document.getElementById("question-number").innerText = `Question ${
     index + 1
   } of ${questions.length}`;
+
   document.getElementById("question-text").innerText = q.question;
 
-  // Update progress bar
   document.getElementById("progress-bar").style.width = `${
     (index / questions.length) * 100
   }%`;
 
-  // Options
   const optionsDiv = document.getElementById("options-container");
   optionsDiv.innerHTML = "";
+
   const opts = shuffle([q.correct, q.wrong]);
 
   opts.forEach((opt) => {
@@ -38,8 +38,7 @@ function renderQuestion() {
   document.getElementById("feedback-box").classList.add("hidden");
   document.getElementById("next-btn").classList.add("hidden");
 
-  // Show back button only if not first question
-  document.getElementById("back-btn").classList.toggle("hidden", index === 0);
+  document.getElementById("back-link").classList.toggle("hidden", index === 0);
 }
 
 function handleSelection(btn, opt, correct) {
@@ -63,7 +62,7 @@ function handleSelection(btn, opt, correct) {
   document.getElementById("next-btn").classList.remove("hidden");
 
   document.getElementById("next-btn").onclick = nextQuestion;
-  document.getElementById("back-btn").onclick = backQuestion;
+  document.getElementById("back-link").onclick = backQuestion;
 }
 
 function nextQuestion() {
@@ -85,16 +84,14 @@ function backQuestion() {
 function completeQuiz() {
   document.getElementById("quiz-box").innerHTML = `
 		<h2 style="text-align:center;">Quiz Complete</h2>
-		<p style="text-align:center; color:#555;">
-			You have reached the end of the quiz.
-		</p>
-		<p style="text-align:center; margin-top:15px;">
-			<a href="answers.html" style="color:#007aff; font-weight:600;">
-			View Answers & Reasoning</a>
+		<p style="text-align:center; color:#444;">You have completed all questions.</p>
+		<p style="text-align:center; margin-top:20px;">
+			<a href="answers.html" style="font-weight:600; color:#000; text-decoration:underline;">
+				View Answers & Reasoning
+			</a>
 		</p>
 	`;
 
-  // Fill progress bar fully
   document.getElementById("progress-bar").style.width = "100%";
 }
 
